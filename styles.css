@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "Norse";
-  src: url("./fonts/Norse-Bold.woff2") format("woff2");
+  src: url("../sign-up-form/fonts/Norse-Bold.woff2") format("woff2");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -26,7 +26,7 @@
 
 /* LEFT SECTION/PANEL STYLES */
 .left-panel {
-  background: url(./img/background.avif) no-repeat;
+  background: url(../sign-up-form/img/background.avif) no-repeat;
   background-size: cover;
   width: 40%;
   height: 100%;
@@ -92,14 +92,13 @@ header p {
 /* main styles */
 
 main {
-    position: relative;
+  position: relative;
   height: 40vh;
 }
 form {
   display: flex;
   flex-wrap: wrap;
   padding: 4vh 35em 0 4vw;
-
 }
 .form-elem {
   width: calc(100% / 2);
@@ -128,7 +127,7 @@ input:focus {
 }
 h2 {
   font-family: var(--roboto-font), Georgia, "Times New Roman", Times, serif;
-padding: 2vh 4vw;
+  padding: 2vh 4vw;
 }
 
 /* footer styles */
@@ -138,16 +137,16 @@ footer {
   padding: 4vh 0 0 4vw;
 }
 hr {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.219);
   box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 button {
-    margin-top: 7vh;
+  margin-top: 7vh;
   width: 200px;
   height: 40px;
   border-radius: 5px;
@@ -159,21 +158,20 @@ button {
   font-weight: 500;
   cursor: pointer;
 }
-button:hover{
-    background-color: #7c9963;
+button:hover {
+  background-color: #7c9963;
 }
-button:active{
+button:active {
   background-color: #4d5f3d;
-
 }
 
 footer p {
   margin-top: 7vh;
-  font-family: var(--roboto-font),Georgia, 'Times New Roman', Times, serif;
+  font-family: var(--roboto-font), Georgia, "Times New Roman", Times, serif;
   font-size: 1.05rem;
 }
 
-footer a{
-    color: #698352;
-    font-weight: 900;
+footer a {
+  color: #698352;
+  font-weight: 900;
 }
