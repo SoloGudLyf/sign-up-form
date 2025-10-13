@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "Norse";
-  src: url("../sign-up-form/fonts/Norse-Bold.woff2") format("woff2");
+  src: url("./fonts/Norse-Bold.woff2") format("woff2");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -26,7 +26,7 @@
 
 /* LEFT SECTION/PANEL STYLES */
 .left-panel {
-  background: url(../sign-up-form/img/background.avif) no-repeat;
+  background: url(./img/background.avif) no-repeat;
   background-size: cover;
   width: 40%;
   height: 100%;
