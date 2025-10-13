@@ -13,14 +13,21 @@
           <img src="/img/odin-lined.png" alt="" />
           <h1>ODIN</h1>
         </div>
-        <p class="credit">Photo by <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Halie West</a> on Unsplash</p>
+        <p class="credit">
+          Photo by
+          <a
+            href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA"
+            >Halie West</a
+          >
+          on Unsplash
+        </p>
       </div>
       <div class="right-panel">
         <header>
           <p>
-            This is not a real online service! You know you need something <span>
-              like this
-              in your life to help you realize your deepest dreams.
+            This is not a real online service! You know you need something
+            <span>
+              like this in your life to help you realize your deepest dreams.
             </span>
             <span>Sign up <em>now</em> to get started.</span>
           </p>
@@ -31,11 +38,11 @@
           <form action="#" method="post">
             <div class="form-elem">
               <label for="first-name">FIRST NAME</label>
-              <input type="text" id="first-name" name="fname" />
+              <input type="text" id="first-name" name="fname" required />
             </div>
             <div class="form-elem">
               <label for="last-name">LAST NAME</label>
-              <input type="text" id="last-name" name="lname" />
+              <input type="text" id="last-name" name="lname" required />
             </div>
             <div class="form-elem">
               <label for="email">EMAIL</label>
@@ -44,15 +51,22 @@
                 id="email"
                 name="email"
                 placeholder="example@email.com"
+                required
               />
             </div>
             <div class="form-elem">
               <label for="phone-number">PHONE NUMBER</label>
-              <input type="tel" name="tel" id="phone-number" />
+              <input
+                type="tel"
+                name="tel"
+                id="phone-number"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                required
+              />
             </div>
             <div class="form-elem">
               <label for="password">PASSWORD</label>
-              <input type="password" name="password" id="password" />
+              <input type="password" name="password" id="password" required />
             </div>
             <div class="form-elem">
               <label for="confirm-password">CONFIRM PASSWORD</label>
@@ -60,12 +74,15 @@
                 type="password"
                 name="confirm-password"
                 id="confirm-password"
+                required
               />
             </div>
+            <hr />
+
+            <button type="submit">Create Account</button>
           </form>
         </main>
         <footer>
-          <button>Create Account</button>
           <p>Already have an account? <a href="#">Log in</a></p>
         </footer>
       </div>
