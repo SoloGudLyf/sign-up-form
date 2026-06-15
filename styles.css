@@ -19,7 +19,6 @@
 
 .container {
   display: flex;
-  width: 100vw;
   height: 100vh;
   margin: auto;
 }
@@ -29,8 +28,8 @@
   background: url(./img/background.avif) no-repeat;
   background-size: cover;
   width: 40%;
-  height: 100%;
   display: flex;
+  justify-content: center;
   flex-direction: column;
 }
 
@@ -72,10 +71,9 @@
 /* header styles */
 
 header {
-  height: 30vh;
   font-family: var(--roboto-font), Georgia, "Times New Roman", Times, serif;
   font-size: 1.5rem;
-  padding: 3vh 4vw;
+  padding-left: 4vw;
   font-weight: 500;
   line-height: 1.5;
   background-color: rgba(209, 209, 255, 0.1);
@@ -89,27 +87,29 @@ header p {
   margin-top: 5vh;
 }
 
+.last-elem {
+  margin-top: 1rem;
+}
+
 /* main styles */
 
 main {
-  position: relative;
   height: 40vh;
 }
-form {
+.form-elems {
   display: flex;
   flex-wrap: wrap;
-  padding: 4vh 35em 0 4vw;
+  padding-left: 4vw;
+  gap: 1.5vw;
 }
 .form-elem {
-  width: calc(100% / 2);
+  width: 28vw;
   display: flex;
   flex-direction: column;
-  padding: 16px 0;
-  gap: 4px;
+  margin-bottom: 1rem;
 }
 
 input {
-  width: 300px;
   height: 28px;
   font-size: 1.2rem;
   border: 2px solid #e5e7eb;
@@ -136,21 +136,18 @@ h2 {
 
 /* footer styles */
 footer {
-  height: 30vh;
   background-color: rgba(216, 216, 216, 0.11);
-  padding: 4vh 0 0 4vw;
+  padding-left: 4vw;
 }
 hr {
-  position: absolute;
-  bottom: 0;
-  left: 0;
   width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.219);
   box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 button {
-  margin-top: 7vh;
+  margin-top: 2vh;
+  margin-left: 4vw;
   width: 200px;
   height: 40px;
   border-radius: 5px;
@@ -170,7 +167,7 @@ button:active {
 }
 
 footer p {
-  margin-top: 7vh;
+  margin-top: 9vh;
   font-family: var(--roboto-font), Georgia, "Times New Roman", Times, serif;
   font-size: 1.05rem;
 }
