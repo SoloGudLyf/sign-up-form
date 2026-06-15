@@ -202,12 +202,17 @@ footer a {
 
 @media (max-width: 500px) {
   .form-elem {
-    width: 90%;
+    width: 80%;
   }
   footer {
     margin-top: 4rem;
     padding-bottom: 1rem;
   }
+  header,
+  main h2 {
+    font-size: 1rem;
+  }
   .left-panel {
+    display: none;
   }
 }
