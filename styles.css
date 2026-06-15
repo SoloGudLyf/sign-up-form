@@ -167,7 +167,7 @@ button:active {
 }
 
 footer p {
-  margin-top: 9vh;
+  margin-top: 1rem;
   font-family: var(--roboto-font), Georgia, "Times New Roman", Times, serif;
   font-size: 1.05rem;
 }
@@ -188,5 +188,26 @@ footer a {
   header,
   main h2 {
     font-size: 1.2rem;
+  }
+  header p {
+    margin-top: 2px;
+  }
+  input {
+    height: 1.5rem;
+  }
+  .form-elem {
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 500px) {
+  .form-elem {
+    width: 90%;
+  }
+  footer {
+    margin-top: 4rem;
+    padding-bottom: 1rem;
+  }
+  .left-panel {
   }
 }
