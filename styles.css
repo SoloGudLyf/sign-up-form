@@ -176,3 +176,17 @@ footer a {
   color: #698352;
   font-weight: 900;
 }
+
+@media (max-width: 800px) {
+  .form-elem {
+    width: calc(80% / 2);
+    font-size: 0.8rem;
+  }
+  .odin-logo {
+    font-size: 2rem;
+  }
+  header,
+  main h2 {
+    font-size: 1.2rem;
+  }
+}
